@@ -9,7 +9,7 @@ public class Repertoire {
 		tableau = new Contact[100];
 
 		tableau[0] = new Contact("John", 92600893);
-		tableau[1] = new Contact("Papa", 90747464);
+		tableau[1] = new Contact("Luc", 90747474);
 		tableau[2] = new Contact("Claire", 90749090);
 
 		int id = 3;
@@ -23,11 +23,14 @@ public class Repertoire {
 			reponse = choix();
 
 			if (reponse == 2) {
+
 				Contact contact = new Contact();
+
 				for (i = 0; i < id; i++) {
 					contact = tableau[i];
 					contact.affiche();
 				}
+				
 			} else if (reponse == 1) {
 
 				tableau[id] = ajoute();
