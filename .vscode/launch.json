@@ -1,0 +1,29 @@
+{
+	// Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
+	// Pointez pour afficher la description des attributs existants.
+	// Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "java",
+			"name": "Debug (Launch) - Current File",
+			"request": "launch",
+			"mainClass": "${file}",
+			"console": "externalTerminal"
+		},
+		{
+			"type": "java",
+			"name": "Debug (Launch)-Repertoire<Repertoire>",
+			"request": "launch",
+			"mainClass": "Repertoire",
+			"projectName": "Repertoire"
+		},
+		{
+			"type": "java",
+			"name": "Debug (Launch)-App<Repertoire>",
+			"request": "launch",
+			"mainClass": "app.App",
+			"projectName": "Repertoire"
+		}
+	]
+}
